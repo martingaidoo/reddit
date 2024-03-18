@@ -62,9 +62,20 @@
     gap: .25rem;;
 }
 /*tittle*/
-
+.rd-principal-tittle {
+    margin-bottom: .5rem;
+    margin-top: 0;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+}
 /*description*/
-
+.rd-principal-description {
+    font-size: .875rem;
+    line-height: 1.25rem;
+    margin-bottom: .5rem;
+    margin-top: 0;
+}
 /*bottom*/
 .rd-principal-bottom{
     display: flex;

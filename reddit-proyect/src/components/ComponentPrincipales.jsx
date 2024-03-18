@@ -30,7 +30,7 @@ export const ComponentPrincipales = ({community, time, tittle, description, like
       </div>
     </div>
 
-    <h3 className='rd-principal-tittle'>{tittle}</h3>
+    <p className='rd-principal-tittle'>{tittle}</p>
 
     <p className="rd-principal-description">{description}</p>
 
