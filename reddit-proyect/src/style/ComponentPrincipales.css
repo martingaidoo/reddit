@@ -1,0 +1,127 @@
+/*general*/
+.rd-principal {
+    background-color: #fefeff;
+    display: flex;
+    justify-content: space-between;
+    padding: .25rem 1rem;
+    cursor: pointer;
+    border-radius: 16px;
+    flex-direction: column;
+}
+.rd-principal-button {
+    border: none;
+    background-color: #fefeff;
+    border-radius: 999px;
+    cursor: pointer;
+}
+
+
+/*header*/
+.rd-principal-header{
+    display: flex;
+    flex-direction: row;
+    margin-top: -4px;
+    margin-bottom: .25rem;
+    font-size: .75rem;
+    line-height: 1rem;
+    justify-content: space-between;
+}
+.rd-principal-header-left, .rd-principal-header-right{
+    display: flex;
+    flex-direction: row;
+}
+.rd-principal-header-left{
+    flex-wrap: wrap;
+    gap: .25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rd-principal-header-left-subtittle{
+    line-height: 16px;
+}
+.rd-principal-header-left-icon{
+    border-radius: 624.9375rem;
+}
+
+.rd-principal-header-right-joinButton {
+    background-color: #0044ad;
+    color: #fefeff;
+    border-radius: 999px;
+    height: 24px;
+    padding: 0 11px;
+}
+.rd-principal-header-right-configButton {
+    background-color: #fefeff;
+    min-width: 32px;
+    min-height: 32px;
+    padding: 0 6px;
+}
+.rd-principal-header-right{
+    align-items: center;
+    gap: .25rem;;
+}
+/*tittle*/
+
+/*description*/
+
+/*bottom*/
+.rd-principal-bottom{
+    display: flex;
+    gap: 0.75rem;
+}
+.rd-principal-bottom-likes {
+    border-radius: 999px;
+    cursor: text;
+    font-size: 1rem;
+}
+.rd-principal-bottom-likes-high, .rd-principal-bottom-likes-low {
+    background-color: #ebecef ;
+    height: 2rem;
+    width: 2rem;
+}
+.rd-principal-bottom-comments{
+    height: 2rem;
+    padding: 0 .75rem;
+    font-size: 1rem;
+}
+.rd-principal-bottom-comments>i{
+    
+    margin-right: .375rem;
+}
+.rd-principal-bottom-share{
+    padding: 0 .75rem;
+}
+.rd-principal-bottom-share>i{
+    line-height: 1.25rem;
+    margin-right: .375rem;
+}
+.rd-principal-bottom-likes, .rd-principal-bottom-comments, .rd-principal-bottom-share {
+    background-color: #ebecef ;
+}
+
+
+
+/*animacion*/
+/*general*/
+.rd-principal:hover {
+    background-color: #f3f4f4;
+}
+.rd-principal-button:hover {
+    background-color: #e2e6e8;
+}
+/*header*/
+.rd-principal-header-right-joinButton:hover {
+    background-color: #003485;
+    color: #fefeff;
+}
+/*bottom*/
+.rd-principal-bottom-likes-high :hover , .rd-principal-bottom-likes-low :hover {
+    background-color: #e2e6e8 ;
+}
+.rd-principal-bottom-likes-high :hover {
+    color: #dc5e32;
+}
+.rd-principal-bottom-likes-low :hover{
+    color: #887ff9;
+}
