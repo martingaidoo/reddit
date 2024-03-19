@@ -7,8 +7,7 @@ import "../style/stylePanelIzquierdo.css"
 export const ComponentPanelIzquierdo = () => {
   return (
     <div className='container__panel'>
-
-      <div className='boton__Principal'>
+      <div className='cp__Boton'>
         <a>
 
           <i class="fa-solid fa-house"></i>
@@ -18,9 +17,8 @@ export const ComponentPanelIzquierdo = () => {
         </a>
       </div>
 
-      <div className='boton__Principal'>
+      <div className='cp__Boton'>
         <a>
-
           <i class="fa-solid fa-arrow-trend-up"></i>
           <label className="Principal">
             Popular
@@ -28,20 +26,15 @@ export const ComponentPanelIzquierdo = () => {
         </a>
       </div>
 
-      <hr className='separador'></hr>
-
-      <ComponentTEMAS/>
-
-      <hr className='separador'></hr>
-
-      <ComponentRECURSOS/>
-
-    <div className='derechosAutor'>
-      <a href="https://www.redditinc.com/">
-        <p>Reddit, Inc. © 2024. Todos los derechos reservados.</p>
-      </a>
+        <hr className='cp__separador'></hr>
+          <ComponentTEMAS/>
+        <hr className='cp__separador'></hr>
+          <ComponentRECURSOS/>
+      <div className='cp__derechosAutor'>
+        <a href="https://www.redditinc.com/">
+          <p>Reddit, Inc. © 2024. Todos los derechos reservados.</p>
+        </a>
     </div>
-
     </div>
   )
 }
