@@ -1,0 +1,40 @@
+.contenedorBoton{
+    display: flex;
+    flex-direction: column;  
+}
+.botonPrincipal{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}	
+.acomodarImagenFlecha{
+    align-items: end;
+}
+
+.contenedorBoton i {	
+    padding-top: 0.3rem;
+}
+
+.elementoBoton{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}
+.elementoBoton button{
+    display: flex;
+    text-align: start;
+    margin-left: 2rem;
+    padding-left: 1rem;
+    border: none;
+    background: none;
+    font: inherit;
+    border-end-end-radius: 16px;
+    border-top-right-radius: 16px;
+    border-left: 2px solid #c5c5c5;
+    cursor: pointer;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.elementoBoton button:hover{
+    background-color: #dddddd;
+}

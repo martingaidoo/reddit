@@ -1,0 +1,23 @@
+.cp__BotonSimple{
+    display: flex;
+    flex-direction: row;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+}
+.cp__BotonSimple label{
+    margin-left: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.cp__BotonSimple i {
+    font-size: 1rem;
+    margin: 10px;
+    margin-left: 1.8rem;
+
+}
+
+.cp__BotonSimple:hover{
+    background-color: #dddddd;
+}
