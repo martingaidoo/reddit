@@ -7,7 +7,7 @@ import { ComponentBotonSimple } from './ComponentBotonSimple'
 
 export const ComponentPanelIzquierdo = () => {
   return (
-    <div className='container__panel'>
+    <div className='container__panel scrollableDiv'>
       
       <ComponentBotonSimple  nombre="Principal" imagen="fa-solid fa-house" className="elemento-superior"/>
       <ComponentBotonSimple nombre="Popular" imagen="fa-solid fa-arrow-trend-up" className="elemento-superior" />

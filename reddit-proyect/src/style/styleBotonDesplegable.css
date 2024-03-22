@@ -1,19 +1,30 @@
 .contenedorBoton{
     display: flex;
     flex-direction: column;  
+
 }
 .botonPrincipal{
     display: flex;
     flex-direction: column;
+    
     cursor: pointer;
 }	
+.botonPrincipal button{
+    display: flex;
+    text-align: start;
+    border: none;
+    background: none;
+    border-radius: 16px;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
 .acomodarImagenFlecha{
     align-items: end;
 }
 
-.contenedorBoton i {	
-    padding-top: 0.3rem;
-}
 
 .elementoBoton{
     text-decoration: none;
@@ -35,6 +46,10 @@
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
 }
+.botonPrincipal button:hover{
+    background-color: #dddddd;
+}
+
 .elementoBoton button:hover{
     background-color: #dddddd;
 }

@@ -1,24 +1,30 @@
-.container{
+.container__button{
     display: flex;
     flex-direction: column;
-    top: 0;
-    left: 0;
-    
-}
-
-.container .desplegable {
-    background: none;
-    border: none;
-    font: inherit;
-    display: flex;
-    flex-direction: row;
     border-radius: 16px;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    cursor: pointer;
+}
+.container__button button{
+    display: flex;
+    text-align: start;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
     padding-left: 30px;
     padding-right: 30px;
+    border: none;
+    background: none;
 }
 
-.container .desplegable:hover{
+.container__button:hover{
+    background-color: #dddddd;
+}
+.botonChico button{
+    border: none;
+    background: none;
+    border-radius: 16px;
+    margin-left: 1rem;
+    padding: 0.3rem;
+}
+.botonChico button:hover{
     background-color: #dddddd;
 }

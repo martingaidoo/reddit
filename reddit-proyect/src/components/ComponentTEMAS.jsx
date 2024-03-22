@@ -18,9 +18,11 @@ export const ComponentTEMAS = () => {
 
   return (
     <div className='container'>
-      <button className="desplegable" onClick={toggleState}>Temas</button>
+      <div className='container__button'>
+      <button onClick={toggleState}>Temas</button>
+      </div>
       {state && (
-        <div className='containerDesplegado'>
+        <div>
 
           <ComponentBotonDesplegable array={["Valheim", "Genshin Impact", "Minecraft"]} imagen="fa-solid fa-gamepad" nombre="Videojuegos"/>
           <ComponentBotonDesplegable array={["Valheim", "Genshin Impact", "Minecraft"]} imagen="fa-solid fa-gamepad" nombre="Deportes"/>
@@ -29,8 +31,8 @@ export const ComponentTEMAS = () => {
           <ComponentBotonDesplegable array={["Valheim", "Genshin Impact", "Minecraft"]} imagen="fa-solid fa-gamepad" nombre="Television"/>
           <ComponentBotonDesplegable array={["Valheim", "Genshin Impact", "Minecraft"]} imagen="fa-solid fa-gamepad" nombre="Famosos"/>
           
-
-          {!mas && (<button className="container__verMas desplegable" onClick={desplegarMas}>Ver mas</button>)}
+          <div className="botonChico">
+          {!mas && (<button  onClick={desplegarMas}>Ver mas</button>)}
 
           {mas && (
             <React.Fragment>
@@ -39,11 +41,12 @@ export const ComponentTEMAS = () => {
 
             <ComponentBotonSimple nombre="Anime" imagen="fa-solid fa-house"/>
 
-            <button className="container__verMas desplegable" onClick={desplegarMas}>Ver menos</button>
+            <button onClick={desplegarMas}>Ver menos</button>
 
             </React.Fragment>
           )}
           
+          </div>
 
           
 

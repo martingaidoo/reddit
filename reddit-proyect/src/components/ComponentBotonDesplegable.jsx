@@ -1,7 +1,5 @@
 import React, {useState} from 'react'
 import "../style/styleBotonDesplegable.css";
-
-
 export const ComponentBotonDesplegable = ({array, imagen, nombre}) => {
     const [desplegar, setDesplegar] = useState(false);
 
@@ -9,11 +7,10 @@ export const ComponentBotonDesplegable = ({array, imagen, nombre}) => {
         setDesplegar(!desplegar);
         console.log(desplegar());
     }
-
     console.log(imagen)
     return (
 
-    <div className='contenedorBoton'>
+    <div className='contenedorBoton '>
         <div className='botonPrincipal'>
         <button onClick={despliegue} className="desplegable">
 

@@ -1,5 +1,5 @@
 .container__panel{
-    width: 18%;
+    width: 20%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -7,10 +7,25 @@
     position: fixed;
     top: 0;
     left: 0;
-    margin: 0;
-    padding: 1rem;
+    padding: 0.5rem;
     border: 1px solid #ccc;
 }
+
+.scrollableDiv:hover {
+    overflow:scroll;
+    }
+.scrollableDiv::-webkit-scrollbar {
+        width: 7px; /* Ajusta el ancho del scrollbar */
+      }
+.scrollableDiv::-webkit-scrollbar-thumb {
+        background: #cfcfd5; /* Color del scrollbar */
+      }
+
+.scrollableDiv::-webkit-scrollbar-track {
+        background: #f1f1f1; /* Color del fondo del scrollbar */
+      }
+
+
 
 .elemento-superior {
     align-items: flex-start; /* Alinea este elemento en la parte superior */
