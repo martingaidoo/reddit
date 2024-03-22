@@ -17,8 +17,6 @@ El formato del nombre de la rama puede ser un ejemplo T1--MenuIzquierda--MartinG
 
 ## Installation
 
-Install my-project with npm
-
 ```bash
   cd reddit-proyect
   npm install
